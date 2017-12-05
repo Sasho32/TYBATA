@@ -1,0 +1,17 @@
+class RomeConverter
+    
+    def to_rome int_arg
+	if(int_arg == 5000)
+		i = 'MMMMM'
+		return i
+	end
+	if(int_arg == 1)
+		i = 'I'
+		return i
+	end
+    end
+
+    def to_dec string_arg
+    end
+
+ end
